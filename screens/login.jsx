@@ -37,7 +37,7 @@ const Login = () => {
         </View>
       </ImageBackground>
 
-      <Text style= {{color: 'blue',fontSize: 30, fontWeight: 'bold', marginBottom:50}}>Login</Text>
+      <Text style= {{color: 'blue',fontSize: 30, fontWeight: 'bold', marginBottom:50}}>Inicio de Sesión</Text>
 
 
 
@@ -62,7 +62,7 @@ const Login = () => {
       <View style={styles.additionalTextContainer}>
         <Text>¿No tienes cuenta?</Text>
         <TouchableOpacity onPress={registrate}>
-        <Text>Registrate</Text>
+        <Text style= {{ color: 'blue'}}>Registrate</Text>
         </TouchableOpacity>
       </View>
     </View>
